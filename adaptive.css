@@ -1,0 +1,363 @@
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1240px;
+    }
+
+    .big__container {
+        max-width: 1360px;
+    }
+
+    .head__img {
+        left: 28%;
+    }
+
+    .head__inner-bottom-info {
+        gap: 30px;
+    }
+
+    .payments__top {
+        gap: 20px;
+    }
+
+    .payments__bottom-info {
+        padding-left: 0;
+    }
+
+    .payments__phone {
+        /* right: 3%; */
+    } 
+
+    .primepay__block {
+        margin-top: 330px;
+    }
+
+    .bounce__item {
+        padding: 50px 38px;
+        max-width: 900px;
+    }
+
+    .pay__block {
+        margin-top: 130px;
+    }
+
+    .banking__item {
+        max-width: 1240px;
+        margin: 0 auto;
+    }
+
+    .card {
+        max-width: 680px;
+    }
+
+    .subscribe__text {
+        max-width: 500px;
+    }
+
+    .footer__info {
+        gap: 50px;
+    }
+
+    .footer__right-info {
+        gap: 60px;
+    }
+
+}
+
+@media (max-width: 1218px) {
+
+    .head__img {
+        left: 24%;
+    }
+
+    .payments__top-right-img {
+        max-width: 500px;
+    }
+
+    .payments__phone {
+        max-width: 450px;
+    }
+
+    .primepay__block {
+        margin-top: 100px;
+    }
+
+    .primepay__info {
+        gap: 10px;
+        padding: 0 20px;
+    }
+
+    .primepay__item {
+        padding: 30px 0;
+    }
+
+    .app__item {
+        justify-content: space-around;
+    }
+
+    .app__item-left {
+        padding: 20px 30px;
+    }
+
+    .app__img {
+        max-width: 150px;
+    }
+
+    .app__item-right {
+        padding: 0 20px;
+    }
+
+    .number {
+        font-size: 50px;
+    }
+
+    .rating {
+        max-width: 180px;
+    }
+
+    .app__text {
+        font-size: 18px;
+    }
+
+    .pay__img {
+        max-width: 330px;
+    }
+
+    .banking__list {
+        column-gap: 0;
+        font-size: 17px;
+    }
+
+    .card {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 1092px) {
+    .head__img {
+        left: 20%;
+    }
+
+    .primepay__block {
+        margin-top: 70px;
+    }
+    .payments__phone {
+        /* max-width: 380px; */
+    }
+
+    .payments__bottom-info {
+        padding-left: 20px;
+    }
+
+    .banking__information {
+        padding: 100px 20px;
+    }
+
+    .banking__item {
+        align-items: center;
+    }
+    
+    .banking__list {
+        grid-template-columns: 1fr;
+    }
+
+    .bounce__item {
+        max-width: 600px;
+    }
+
+    .subscribe__block {
+        margin-top: 100px;
+    }
+
+    .subscribe__item {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .input__form {
+        width: 350px;
+    }
+
+    .subscribe__text {
+        max-width: 80%;
+        padding-left: 60px;
+    }
+
+    .footer__block {
+        margin-top: 100px;
+    }
+
+    .footer__info {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer__left {
+        max-width: 70%;
+    }
+
+    .footer__right-info {
+        gap: 0;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width:992px) {
+
+    .payments__top {
+        gap: 0;
+    }
+
+    .payments__top-left {
+        padding-right: 5px;
+    }
+
+    .payments__top-right-img {
+        max-width: 400px;
+    }
+
+    .payments__top-right-img {
+        max-width: 415px;
+    }
+
+    .payments__phone {
+        max-width: 350px;
+    }
+    
+    .primepay__info {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .primepay__img {
+        width: 100%;
+    }
+
+    .primepay__text {
+        max-width: 350px;
+    }
+
+    .bounce__title {
+        padding-top: 100px;
+    } 
+
+    .app__item {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .app__item-left {
+        max-width: 400px;
+    }
+
+    .app__item-right {
+        max-width: 400px;
+    }
+
+    .pay__info {
+        flex-wrap: wrap;
+    }
+
+    .pay__text {
+        max-width: 500px;
+    }
+
+    .pay__img:last-child {
+        margin-top: -380px;
+        z-index: -2;
+    }
+
+    .banking__item {
+        flex-direction: column-reverse;
+        align-items: end;
+    }
+}
+
+@media (max-width:783px) {
+
+    .head__inner-title {
+        font-size: 50px;
+    }
+
+    .head__inner-subtitle {
+        font-size: 21px;
+    }
+
+
+
+    .head__img {
+        max-width: 450px;
+    }
+
+    .head__inner-bottom-info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .head__inner-top {
+        height: 750px;
+    }
+
+    .head__inner-bottom-info {
+        margin-top: 250px;
+    }  
+    
+    .head__inner-bootom-item {
+        max-width: 100%;
+    }
+
+    .payments__top {
+        flex-direction: column;
+    }
+
+    .payments__info {
+        margin-top: 180px;
+    }
+
+    .payments-text-2 {
+        margin-bottom: 0;
+    }
+
+    .payments__top-right {
+        margin-top: 160px;
+     }
+
+    .payments__phone {
+        top: -80%;
+    } 
+
+    .bounce__item {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .subscribe__right {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:700px) {
+
+    .text {
+        font-size: 17px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .big__container {
+        padding: 0;
+    }
+
+    .head__inner-top {
+        border-radius: 0;
+    }
+
+    .bounce__title {
+        padding-top: 50px;
+    }
+
+    .bounce__information  {
+        height: 1335px;
+        border-radius: 0;
+    }
+}
