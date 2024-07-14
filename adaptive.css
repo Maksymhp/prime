@@ -203,6 +203,27 @@
 
 @media (max-width:992px) {
 
+    .burger {
+        width: 40px;
+        height: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .burger span {
+        width: 100%;
+        height: 2px;
+        background-color: black;
+    }
+
+    .nav {
+        display: none;
+    }
+
     .payments__top {
         gap: 0;
     }
@@ -290,15 +311,12 @@
     .head__inner-bottom-info {
         flex-wrap: wrap;
         justify-content: center;
+        margin-top: 390px;
     }
 
     .head__inner-top {
         height: 750px;
     }
-
-    .head__inner-bottom-info {
-        margin-top: 250px;
-    }  
     
     .head__inner-bootom-item {
         max-width: 100%;
@@ -309,7 +327,7 @@
     }
 
     .payments__info {
-        margin-top: 180px;
+        margin-top: 100px;
     }
 
     .payments-text-2 {
@@ -317,16 +335,39 @@
     }
 
     .payments__top-right {
-        margin-top: 160px;
-     }
+        margin-top: 200px;
+    }
+
+    .payments__bottom-title  {
+        font-size: 30px;
+    }
+
+    .payments__bottom-info {   
+        gap: 30px;
+    }
 
     .payments__phone {
         top: -80%;
     } 
 
+    .primepay__block {
+        margin-top: 25px;
+    }
+
+
+    .bounce__item-info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
     .bounce__item {
         width: 100%;
         border-radius: 0;
+    }
+
+    .bounce__rating-img {
+        width: 170px;
     }
 
     .subscribe__right {
@@ -352,12 +393,140 @@
         border-radius: 0;
     }
 
+
     .bounce__title {
         padding-top: 50px;
     }
 
+    .bounce__item {
+        max-width: 70%;
+        padding: 30px;
+    }
+
+    .bounce__text {
+        font-size: 16px;
+    }
+
     .bounce__information  {
-        height: 1335px;
+        max-height: 1300px;
         border-radius: 0;
     }
+
+    .pay__img:first-child {
+        margin-bottom: -375px;
+        z-index: 2;
+    }
+
+    .pay__theme {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 30px;
+    }
+
+    .footer__right-name {
+        font-size: 20px;
+    }
+
+    .footer__right-item {
+        font-size: 15px;
+    }
 }
+
+@media (max-width:525px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .head__img  {
+        max-width: 350px;
+    }
+
+    .head__inner-bottom-info {
+        margin-top: 290px;
+    }
+
+
+    .payments__top-right-img {
+        max-width: 100%;
+    }
+
+    .app__item-left {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .app__item-right {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .primepay__info {
+        grid-template-columns: 1fr;
+    }
+
+    .primepay__img {
+        height: 100px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .primepay__item {
+        padding: 0 ;
+    }
+
+    .primepay__title-item {
+        margin: 12px 0 5px;
+    }
+
+    .payments__top-right-img {
+        opacity: 1;
+    }
+
+    .payments__bottom-info {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        max-width: 100%;
+    }
+
+    .bounce__information {
+        max-height: 1130px;
+    }    
+
+    .bounce__item  {
+        margin: 32px 0;
+        max-width: 88%;
+    }
+
+    .line {
+        margin: 15px 0;
+    }
+
+
+    .text , .bounce__text {
+        font-size: 14px;
+        line-height: 159%;
+    }
+
+    .input__form {
+        max-width: 50%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .input__btn {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .subscribe__right {
+        align-items: center;
+    }
+}
+
